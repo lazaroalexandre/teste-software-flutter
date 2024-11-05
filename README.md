@@ -19,6 +19,17 @@ Após a configuração, volte ao projeto e execute os seguintes comandos no term
 - Rodar o aplicativo:
   - flutter run -d _nome_do_dispositivo_
 
+## Observações
+
+Caso esteja rodando o flutter pela primeira vez e não tenha conseguido instalar o aplicativo, faça as seguintes etapas:
+
+- Vá até o arquivo chamado gradle.proerties:
+  - android/gradle.properties
+
+- Mude o caminho do distributionUrl para:
+  - distributionUrl=https\://services.gradle.org/distributions/gradle-8.3-all.zip
+
+- Se o problema persistir, crie um novo projeto flutter com a plataforma android, copie o caminho do distributionUrl e cole neste projeto projeto flutter.
 
 ## Referências
 
